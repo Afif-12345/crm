@@ -1,0 +1,169 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(50, 50, 50, 0.465);
+    display: none;
+    overflow: auto;
+    z-index: 50;
+}
+
+.overlay.open {
+    display: block;
+}
+
+.ovwrap {
+    position: relative;
+    width: 90rem;
+    height: 64rem;
+    margin: 0 auto;
+}
+
+.modal {
+    position: absolute;
+    background: #fff;
+    color: #000;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+}
+
+.modal .t {
+    font-size: 1.4688rem;
+}
+
+.modal .x {
+    position: absolute;
+    background: none;
+    border: 0;
+    font-size: 1.5625rem;
+    line-height: 1;
+    cursor: pointer;
+    color: #000;
+}
+
+.modal h2 {
+    position: absolute;
+    left: 0.4375rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2.0312rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.modal .sub {
+    position: absolute;
+    left: 0.4375rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9875rem;
+    line-height: 1.3125rem;
+}
+
+.in {
+    position: absolute;
+    width: 30.75rem;
+    height: 3.75rem;
+    border: 1px solid #000;
+    border-radius: 0.4375rem;
+    background: #fff;
+    font-size: 1.4688rem;
+    font-weight: 400;
+    outline: none;
+    padding: 2px 0 0 0.875rem;
+    appearance: none;
+    -webkit-appearance: none;
+    color: #000;
+}
+
+.in::placeholder {
+    color: #222;
+    font-weight: 300;
+    opacity: 1;
+}
+
+.in:disabled {
+    background: #d9d9d9;
+    border-color: #d9d9d9;
+    font-size: 1rem;
+    color: #111;
+}
+
+.mtri {
+    position: absolute;
+    width: 1.375rem;
+    height: 1rem;
+    pointer-events: none;
+}
+
+.mbtn {
+    position: absolute;
+    width: 30.75rem;
+    height: 4.8125rem;
+    border: 0;
+    border-radius: 1.375rem;
+    background: var(--blue-d);
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.merr {
+    position: absolute;
+    font-size: 0.875rem;
+    color: #d11;
+    line-height: 1;
+}
+
+.confirm .ttl {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.confirm p {
+    position: absolute;
+    left: 3.0938rem;
+    font-size: 1.275rem;
+    line-height: 1.625rem;
+}
+
+.cbtn {
+    position: absolute;
+    height: 3.375rem;
+    font-size: 1.2188rem;
+    cursor: pointer;
+    border: 1px solid var(--blue-d);
+    background: #fff;
+    color: var(--blue-d);
+}
+
+.cbtn.pri {
+    background: var(--blue-d);
+    color: #fff;
+}
+
+.cbtn.dng {
+    background: #eb1212;
+    border-color: #eb1212;
+    color: #fff;
+}
+
+.toast {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #222;
+    color: #fff;
+    padding: 0.75rem 1.375rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    display: none;
+    z-index: 99;
+}
+
+.toast.show {
+    display: block;
+}
