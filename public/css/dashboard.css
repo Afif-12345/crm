@@ -1,8 +1,3 @@
-/* =====================================================================
-   DASHBOARD.CSS: frame "Dashboard Owner"
-   ===================================================================== */
-
-/* DASHBOARD */
 .sq {
     position: absolute;
     width: 1.5625rem;
@@ -44,7 +39,6 @@
     font-weight: 700;
 }
 
-/* GRAFIK */
 .chart .grid {
     position: absolute;
     left: 0;
@@ -88,7 +82,6 @@
     top: 27.0625rem;
 }
 
-/* KARTU TOP CUSTOMER */
 .tc {
     text-align: center;
 }
@@ -103,7 +96,6 @@
     position: absolute;
 }
 
-/* KOTAK ABU-ABU BAWAH */
 .bottom, .b2 {
     background: var(--grey);
     border-radius: 0.625rem;
